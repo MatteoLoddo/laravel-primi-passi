@@ -37,7 +37,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Vi presento il nostro Team</h1>
+  <h1 class="text-center p-3">Vi presento il nostro Team</h1>
   <div class="container">
   <div class="row m-auto">
     @foreach ($team as $member)
