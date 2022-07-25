@@ -21,7 +21,7 @@ Route::get('/', function(){
 Route::get('/our-team', function(){
     
     return view("ourTeam");
-});
+})->name("OurTeam");
 
 
 

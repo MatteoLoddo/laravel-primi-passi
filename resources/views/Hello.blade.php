@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,12 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello world</h1>
+  <header>
+    <h1>Hello World</h1>
+    <nav>
+      <a href="{{ route("OurTeam") }}">Our Team</a>
+    </nav>
+  </header>
   
 </body>
 </html>
