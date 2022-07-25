@@ -13,7 +13,7 @@
     <ul class="list-unstyled">
       @foreach ($coursesList as $corso)
         <li><strong>{{$corso["title"]}}</strong></li>
-        <li class="p-2">{{$corso["description"]}}</li>
+        <li class="{{ (strlen($corso["description"]) > 200 ? 'text-success' : 'text-primary') }} p-2">{{$corso["description"]}} </li>
       @endforeach
         
     </ul>
